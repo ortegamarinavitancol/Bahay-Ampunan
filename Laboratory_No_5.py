@@ -54,7 +54,7 @@ window.title("Major Subjects")
 window.geometry("350x150")
 
 
-Lb1 = Listbox(window, width=25, height=6, selectmode="multiple")
+Lb1 = Listbox(window, width=25, height=6)
 Lb1.insert(1, "reading")
 Lb1.insert(2, "writing")
 Lb1.insert(3, "arithmetic")
